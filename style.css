@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url(./Personal_Profile_Pics/point-normal-MDsv1p4lC5o-unsplash.jpg);
+    
+}
+.wrapper{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 30px; 
+    margin: 0 auto;
+    width: 96%;
+    box-sizing: border-box;
+}
+section{
+    margin-bottom: 80px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+p{
+    font-size: 30px;
+    color: rgba(0,0,0,0.8);
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: medium;
+}
+.images{
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    background-color: grey;
+    position:sticky ;
+}
+footer p{
+    font-size: small;
+}
+ a{
+    color: black;
+    font-style: bold;
+}
+.link{
+    text-decoration: none;
+    transition:color 0.3s ease;
+}
+.link:hover{
+    color: bisque;
+}
+
+
